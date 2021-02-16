@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+    <style type="text/css">
+        form
+        {
+            margin: auto;
+            width: 30%;
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+            background-color: lightgray;
+        }
+        body
+       {
+        background-image: url(gitambg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    </style>
+</head>
+<body>
+<form>
+	Name:<input type="text" name="name" value="" placeholder="enter name"><br><br>
+	Password:<input type="Password" name="Password" value="" placeholder="enter password"><br><br>
+	Gender:&nbsp;&nbsp;<input type="radio" name="Gender" value="Male">Male&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Gender" value="Female">Female<br><br>
+	Languages Known:&nbsp;&nbsp;<input type="checkbox" name="English" value="e">English&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Telugu" value="t">Telugu<br><br>
+	Date Of Birth:&nbsp;&nbsp;<input type="Date" name="Birth"><br><br>
+	Address:&nbsp;&nbsp;<textarea name="box" rows="10" cols="20"></textarea><br><br>
+	Height:&nbsp;&nbsp;<input type="range" name="range" min="140" max="180"><br><br>
+    Choose Country:<select name="country">
+    	<option>Afganistan</option>
+    	<option>Albenia</option>
+    	<option>Algeria</option>
+    	<option>Australia</option>
+    	<option>Bahamas</option>
+        <option>Bahrain</option>
+        <option>Bangladesh</option>
+        <option>Brazil</option>
+        <option>India</option>
+        <option>Iraq</option>
+        <option>United Kingdom</option>
+        <option>United States Of America</option>
+        <option>Zambia</option>
+        <option>Zimbabwe</option>
+    </select><br><br>
+    <time>04/02/2021  2:40 p.m</time><br><br>
+    <button type="submit" value="Submit">Submit</button>
+</form>
+</body>
+</html>
